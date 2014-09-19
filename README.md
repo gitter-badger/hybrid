@@ -62,14 +62,14 @@ myApp.change(myApp.status, 'offline', function($app) {
 
 
 ###Internal linking
-You can use the built in linking method for generating links to the pages in the app, the main benefit is, that the app won't reload at all and you can add serveral parameters or special methods.
+You can use the built in linking method for generating links to the pages in the app, the main benefit is, that the app won't reload at all and you can add serveral parameters or special methods. To all elements provided with the anchor attribute will the class 'link' be added!
 
-> You won't have to use the link tag at all, the styling is also provided for the <code>.anchor</code> class!
+> You won't have to use the link tag at all, the styling is also provided ->  the <code>.link</code> class!
 
 ```html
 <nav>
     <ul>
-        <li class="anchor" data-link="myPage">Go to myPage</li>
+        <li anchor="myPage">Go to myPage</li>
     </ul>
 </nav>
 ```
