@@ -53,7 +53,7 @@ var $webSqlAdapter = new $adapterProvider(opts);
 ###Offline recognition
 If the user is offline, there should be all services provided, which are needed. There should be an adapter for the localstorage which will sync to the master DB when connection is avaible. The framework files and the view of the user should be saved in a <code>manifest</code> file, which we'll generate with a PHP method. UI elements and JS will be cached and compressed into one single file located under <code>cache/</code> and will be renewed on changes in any of the files needed, **idea**:
 
-```
+```js
 // When the appstatus goes to 'offline', execute code
 myApp.change(myApp.status, 'offline', function($app) {
     alert("Appmode is now " + $app.status);
