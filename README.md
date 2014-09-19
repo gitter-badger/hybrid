@@ -7,8 +7,7 @@ For more information, take a look at the tree below.
 app/
  |
  +- lib/
- |   |
- |   +- deps/
+ +- deps/
  +- cache/
  +- ui/
  +-
