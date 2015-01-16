@@ -1,4 +1,6 @@
 ###Project Structure
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mobile-hybrid/hybrid?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 The project structure contains an <code>app</code> folder, with the framework in it, there's a folder <code>app/lib</code> where
 the main application is located. A folder for the dependencies is also provided in the app folder under <code>app/lib/deps</code>.
 For more information, take a look at the tree below.
